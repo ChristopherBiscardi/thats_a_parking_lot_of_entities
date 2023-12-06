@@ -17,3 +17,7 @@ opt-level = 3
 
 [dependencies]
 bevy = "0.11"
+
+[lints.clippy]
+type_complexity = "allow"
+too_many_arguments = "allow"

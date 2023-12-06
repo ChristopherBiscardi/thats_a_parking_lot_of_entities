@@ -2,6 +2,10 @@ use bevy::prelude::*;
 
 fn main() {
     App::new()
+        .insert_resource(ClearColor(
+            Color::hex("#1e1e2e")
+                .expect("a valid hex color"),
+        ))
         .add_plugins(DefaultPlugins)
         .add_systems(Startup, setup)
         .run();

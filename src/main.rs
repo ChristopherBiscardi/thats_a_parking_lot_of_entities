@@ -13,7 +13,7 @@ fn setup(
 ) {
     commands.spawn(Camera2dBundle::default());
     commands.spawn(SpriteBundle {
-        texture: asset_server.load("ducky.png"),
+        texture: asset_server.load("ferris.png"),
         ..Default::default()
     });
 }
